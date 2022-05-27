@@ -10,11 +10,10 @@ Usage: python general_plip_pricessing.py
 Melchor Sanchez-Martinez, 2022 
 """
 import sys,os
-sys.path.append ( os.path.join ("/home/melchor/science/code/" ) )
 import glob
 import pandas as pd
 import shutil
-from dock.general_interactionsALL import Interacts2Csv
+from general_interactionsALL import Interacts2Csv
 
 
 
